@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo -- My new blog]]></title>
+    <url>%2F2019%2F05%2F02%2FHexo-My-new-blog%2F</url>
+    <content type="text"><![CDATA[开博祭耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog,终于完成了hexo的搭建，真心不容易哇。之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）我的旧博客，（拍桌子强调）：它没死，我日常的机房题解还会在上面更新，毕竟机房里用hexo不太现实。 flag距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，有题解，也会有一些关于算法的讲解（可能会有），以及一些模板。最后，祝自己：1234567struct node&#123; rp, score;&#125;noip_2019;while(1)&#123; noip_2019.rp++; noip2019.score++;&#125;]]></content>
+  </entry>
+</search>
