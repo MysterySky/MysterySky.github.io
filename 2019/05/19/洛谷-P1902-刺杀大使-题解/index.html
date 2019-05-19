@@ -105,24 +105,24 @@
 
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
-  <meta name="description" content="开博祭耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog,终于完成了hexo的搭建，真心不容易哇。之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）我的旧博客，（拍桌子强调）：它没死，我日常的机房题解还会在上面更新，毕竟机房里用hexo不太现实。 flag距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，">
+  <meta name="description" content="刺杀大使一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。看完题目就基本想到要怎么做了：只需要对最小伤害代价进行二分即可，check()函数里用搜索判断是否可以到达最后一行，这里的check()用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。如果你不像我一般手滑的话，此题基本就可以过了。 然而，导致我反复提交20遍的原因，不是二分答案时卡循环的问题，而是">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo -- My new blog">
-<meta property="og:url" content="MysterySky.github.io/2019/05/02/Hexo-My-new-blog/index.html">
+<meta property="og:title" content="洛谷 P1902 刺杀大使  题解">
+<meta property="og:url" content="MysterySky.github.io/2019/05/19/洛谷-P1902-刺杀大使-题解/index.html">
 <meta property="og:site_name" content="Mystery_Sky">
-<meta property="og:description" content="开博祭耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog,终于完成了hexo的搭建，真心不容易哇。之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）我的旧博客，（拍桌子强调）：它没死，我日常的机房题解还会在上面更新，毕竟机房里用hexo不太现实。 flag距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，">
+<meta property="og:description" content="刺杀大使一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。看完题目就基本想到要怎么做了：只需要对最小伤害代价进行二分即可，check()函数里用搜索判断是否可以到达最后一行，这里的check()用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。如果你不像我一般手滑的话，此题基本就可以过了。 然而，导致我反复提交20遍的原因，不是二分答案时卡循环的问题，而是">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-01T13:29:28.646Z">
+<meta property="og:updated_time" content="2019-05-19T09:21:19.784Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo -- My new blog">
-<meta name="twitter:description" content="开博祭耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog,终于完成了hexo的搭建，真心不容易哇。之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）我的旧博客，（拍桌子强调）：它没死，我日常的机房题解还会在上面更新，毕竟机房里用hexo不太现实。 flag距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，">
+<meta name="twitter:title" content="洛谷 P1902 刺杀大使  题解">
+<meta name="twitter:description" content="刺杀大使一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。看完题目就基本想到要怎么做了：只需要对最小伤害代价进行二分即可，check()函数里用搜索判断是否可以到达最后一行，这里的check()用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。如果你不像我一般手滑的话，此题基本就可以过了。 然而，导致我反复提交20遍的原因，不是二分答案时卡循环的问题，而是">
 
 
 
 
 
 
-  <link rel="canonical" href="MysterySky.github.io/2019/05/02/Hexo-My-new-blog/">
+  <link rel="canonical" href="MysterySky.github.io/2019/05/19/洛谷-P1902-刺杀大使-题解/">
 
 
 
@@ -132,7 +132,7 @@
   };
 </script>
 
-  <title>Hexo -- My new blog | Mystery_Sky</title>
+  <title>洛谷 P1902 刺杀大使  题解 | Mystery_Sky</title>
   
 
 
@@ -365,7 +365,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="MysterySky.github.io/2019/05/02/Hexo-My-new-blog/">
+    <link itemprop="mainEntityOfPage" href="MysterySky.github.io/2019/05/19/洛谷-P1902-刺杀大使-题解/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mystery_Sky">
@@ -382,7 +382,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hexo -- My new blog
+          <h1 class="post-title" itemprop="name headline">洛谷 P1902 刺杀大使  题解
 
               
             
@@ -408,24 +408,12 @@
                 
               
 
-              <time title="创建时间：2019-05-02 00:00:00" itemprop="dateCreated datePublished" datetime="2019-05-02T00:00:00+08:00">2019-05-02</time>
+              <time title="创建时间：2019-05-19 17:21:00 / 修改时间：17:21:19" itemprop="dateCreated datePublished" datetime="2019-05-19T17:21:00+08:00">2019-05-19</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-05-01 21:29:28" itemprop="dateModified" datetime="2019-05-01T21:29:28+08:00">2019-05-01</time>
               
             
           </span>
@@ -439,9 +427,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/05/02/Hexo-My-new-blog/#comments" itemprop="discussionUrl">
+                <a href="/2019/05/19/洛谷-P1902-刺杀大使-题解/#comments" itemprop="discussionUrl">
                 
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/05/02/Hexo-My-new-blog/" itemprop="commentCount"></span>
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/05/19/洛谷-P1902-刺杀大使-题解/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -470,7 +458,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">352</span>
+                <span title="本文字数">2.8k</span>
               
 
               
@@ -484,7 +472,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 分钟</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -504,8 +492,13 @@
       
 
       
-        <h3 id="开博祭"><a href="#开博祭" class="headerlink" title="开博祭"></a>开博祭</h3><h4 id="耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog-终于完成了hexo的搭建，真心不容易哇。"><a href="#耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog-终于完成了hexo的搭建，真心不容易哇。" class="headerlink" title="耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog,终于完成了hexo的搭建，真心不容易哇。"></a>耗费将近一天的努力（<del>不包括咕咕了的几个星期</del>），看了n篇blog,终于完成了hexo的搭建，真心不容易哇。</h4><h4 id="之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）"><a href="#之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）" class="headerlink" title="之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）"></a>之前在博客园的博客个人觉得太过臃肿（<del>花里胡哨</del>），所以搭建了hexo的博客（<del>其实就是为了装dalao</del>）</h4><h4 id="我的旧博客，"><a href="#我的旧博客，" class="headerlink" title="我的旧博客，"></a><a href="http://www.cnblogs.com/Benjamin-cpp/" target="_blank" rel="noopener">我的旧博客</a>，</h4><p>（拍桌子强调）：它没死，我日常的机房题解还会在上面更新，<del>毕竟机房里用hexo不太现实。</del></p>
-<h3 id="flag"><a href="#flag" class="headerlink" title="flag"></a>flag</h3><h4 id="距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，有题解，也会有一些关于算法的讲解（可能会有），以及一些模板。"><a href="#距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，有题解，也会有一些关于算法的讲解（可能会有），以及一些模板。" class="headerlink" title="距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，有题解，也会有一些关于算法的讲解（可能会有），以及一些模板。"></a>距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，有题解，也会有一些关于算法的讲解（<del>可能会有</del>），以及一些模板。</h4><h2 id="最后，祝自己："><a href="#最后，祝自己：" class="headerlink" title="最后，祝自己："></a>最后，祝自己：</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span>&#123;</span></span><br><span class="line">    rp, score;</span><br><span class="line">&#125;noip_2019;</span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">    noip_2019.rp++;</span><br><span class="line">    noip2019.score++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h1 id="刺杀大使"><a href="#刺杀大使" class="headerlink" title="刺杀大使"></a><a href="https://www.luogu.org/problemnew/show/P1902" target="_blank" rel="noopener">刺杀大使</a></h1><h3 id="一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。"><a href="#一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。" class="headerlink" title="一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。"></a>一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。</h3><h2 id="看完题目就基本想到要怎么做了："><a href="#看完题目就基本想到要怎么做了：" class="headerlink" title="看完题目就基本想到要怎么做了："></a>看完题目就基本想到要怎么做了：</h2><h3 id="只需要对最小伤害代价进行二分即可，check-函数里用搜索判断是否可以到达最后一行，这里的check-用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。"><a href="#只需要对最小伤害代价进行二分即可，check-函数里用搜索判断是否可以到达最后一行，这里的check-用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。" class="headerlink" title="只需要对最小伤害代价进行二分即可，check()函数里用搜索判断是否可以到达最后一行，这里的check()用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。"></a>只需要对最小伤害代价进行二分即可，check()函数里用搜索判断是否可以到达最后一行，这里的check()用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。</h3><p>如果你不像我一般手滑的话，此题基本就可以过了。</p>
+<p>然而，导致我反复提交20遍的原因，不是二分答案时卡循环的问题，而是，，，</p>
+<p>​                                 <strong><em>数组开小了</em></strong></p>
+<p>这也给我提了个醒，不是所有的re都是二分循环的锅，有时候要考虑数组越界的问题。</p>
+<h5 id="用汝佳julao的话说，就是-编写一个尽量鲁棒的程序！！！"><a href="#用汝佳julao的话说，就是-编写一个尽量鲁棒的程序！！！" class="headerlink" title="用汝佳julao的话说，就是 : 编写一个尽量鲁棒的程序！！！"></a>用汝佳julao的话说，就是 : 编写一个尽量<strong>鲁棒</strong>的程序！！！</h5><hr>
+<h2 id="code"><a href="#code" class="headerlink" title="code:"></a>code:</h2><h3 id="深搜做法（更优）："><a href="#深搜做法（更优）：" class="headerlink" title="深搜做法（更优）："></a>深搜做法（更优）：</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//Mystery_Sky</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> M 2000</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> INF 0x7f7f7f7f</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dx[] = &#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">-1</span>&#125;;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dy[] = &#123;<span class="number">1</span>, <span class="number">-1</span>, <span class="number">0</span>, <span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> l, r, mid;</span><br><span class="line"><span class="keyword">bool</span> vis[M][M], flag;</span><br><span class="line"><span class="keyword">int</span> n, m, a[M][M];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">check</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y, <span class="keyword">int</span> ans)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(x == n)	&#123;</span><br><span class="line">		flag = <span class="literal">true</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= <span class="number">3</span>; i++) &#123;</span><br><span class="line">		<span class="keyword">int</span> xx = x + dx[i];</span><br><span class="line">		<span class="keyword">int</span> yy = y + dy[i];</span><br><span class="line">		<span class="keyword">if</span>(xx &lt;= <span class="number">0</span> || yy &lt;= <span class="number">0</span> || xx &gt; n || yy &gt; m || a[xx][yy] &gt; ans || vis[xx][yy]) <span class="keyword">continue</span>;</span><br><span class="line">		vis[xx][yy] = <span class="number">1</span>;</span><br><span class="line">		check(xx, yy, ans);</span><br><span class="line">		<span class="keyword">if</span>(flag) <span class="keyword">return</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;n, &amp;m);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= m; j++)</span><br><span class="line">			<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;a[i][j]), r = max(r, a[i][j]);</span><br><span class="line">	l = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(l &lt;= r) &#123;</span><br><span class="line">		mid = (l+r)/<span class="number">2</span>;</span><br><span class="line">		<span class="built_in">memset</span>(vis, <span class="number">0</span>, <span class="keyword">sizeof</span>(vis));</span><br><span class="line">		flag = <span class="number">0</span>;</span><br><span class="line">		check(<span class="number">1</span>, <span class="number">1</span>, mid);</span><br><span class="line">		<span class="keyword">if</span>(flag) r = mid - <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">else</span> l = mid + <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d\n"</span>, l);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="广搜做法："><a href="#广搜做法：" class="headerlink" title="广搜做法："></a>广搜做法：</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//Mystery_Sky</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> M 2000</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> INF 0x7f7f7f7f</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> x, y;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">int</span> n, m, p[M][M];</span><br><span class="line"><span class="keyword">int</span> l, r, mid, maxx;</span><br><span class="line"><span class="keyword">int</span> vis[M][M];</span><br><span class="line"><span class="keyword">int</span> dx[] = &#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">-1</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dy[] = &#123;<span class="number">1</span>, <span class="number">-1</span>, <span class="number">0</span>, <span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> Ans;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">check</span><span class="params">(<span class="keyword">int</span> ans)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">memset</span>(vis, <span class="number">0</span>, <span class="keyword">sizeof</span>(vis));</span><br><span class="line">    <span class="built_in">queue</span> &lt;node&gt; q;</span><br><span class="line">    q.push((node)&#123;<span class="number">1</span>, <span class="number">1</span>&#125;);</span><br><span class="line">    <span class="keyword">while</span>(!q.empty()) &#123;</span><br><span class="line">        node top = q.front();</span><br><span class="line">        q.pop();</span><br><span class="line">        <span class="keyword">int</span> x, y;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= <span class="number">3</span>; i++) &#123;</span><br><span class="line">                x = top.x + dx[i];</span><br><span class="line">                y = top.y + dy[i];</span><br><span class="line">                <span class="keyword">if</span>(x &lt;= <span class="number">0</span> || y &lt;= <span class="number">0</span> || x &gt; n || y &gt; m || p[x][y] &gt; ans || vis[x][y]) <span class="keyword">continue</span>;</span><br><span class="line">                vis[x][y] = <span class="number">1</span>;</span><br><span class="line">                q.push((node)&#123;x, y&#125;);</span><br><span class="line">                <span class="keyword">if</span>(x == n)	<span class="keyword">return</span> <span class="literal">true</span>; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;n, &amp;m);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= m; j++) <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;p[i][j]);</span><br><span class="line">    l = <span class="number">0</span>, r = <span class="number">1024</span>;</span><br><span class="line">    <span class="keyword">while</span>(l &lt; r) &#123;</span><br><span class="line">        mid = (l+r)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span>(check(mid)) &#123;</span><br><span class="line">            r = mid;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> l = mid+<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, l);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -536,15 +529,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/05/12/博客完工暨开始正经干活祭/" rel="next" title="博客完工暨开始正经干活祭">
+                <i class="fa fa-chevron-left"></i> 博客完工暨开始正经干活祭
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/05/12/博客完工暨开始正经干活祭/" rel="prev" title="博客完工暨开始正经干活祭">
-                博客完工暨开始正经干活祭 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -678,7 +671,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#开博祭"><span class="nav-number">1.</span> <span class="nav-text">开博祭</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog-终于完成了hexo的搭建，真心不容易哇。"><span class="nav-number">1.1.</span> <span class="nav-text">耗费将近一天的努力（不包括咕咕了的几个星期），看了n篇blog,终于完成了hexo的搭建，真心不容易哇。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）"><span class="nav-number">1.2.</span> <span class="nav-text">之前在博客园的博客个人觉得太过臃肿（花里胡哨），所以搭建了hexo的博客（其实就是为了装dalao）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#我的旧博客，"><span class="nav-number">1.3.</span> <span class="nav-text">我的旧博客，</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#flag"><span class="nav-number">2.</span> <span class="nav-text">flag</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，有题解，也会有一些关于算法的讲解（可能会有），以及一些模板。"><span class="nav-number">2.1.</span> <span class="nav-text">距离今年的noip也不远了，这个博客将记录我为迎接noip2019所做的一些事情，有题解，也会有一些关于算法的讲解（可能会有），以及一些模板。</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#最后，祝自己："><span class="nav-number"></span> <span class="nav-text">最后，祝自己：</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#刺杀大使"><span class="nav-number">1.</span> <span class="nav-text">刺杀大使</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。"><span class="nav-number">1.0.1.</span> <span class="nav-text">一道并不难的二分题，竟让我交了上20次，诶，果然还是我太弱了。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#看完题目就基本想到要怎么做了："><span class="nav-number">1.1.</span> <span class="nav-text">看完题目就基本想到要怎么做了：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#只需要对最小伤害代价进行二分即可，check-函数里用搜索判断是否可以到达最后一行，这里的check-用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。"><span class="nav-number">1.1.1.</span> <span class="nav-text">只需要对最小伤害代价进行二分即可，check()函数里用搜索判断是否可以到达最后一行，这里的check()用深搜广搜都可以，两种的代码下面都会给出，而经过检验，这道题目用深搜会优于广搜。</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#用汝佳julao的话说，就是-编写一个尽量鲁棒的程序！！！"><span class="nav-number">1.1.1.0.1.</span> <span class="nav-text">用汝佳julao的话说，就是 : 编写一个尽量鲁棒的程序！！！</span></a></li></ol></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#code"><span class="nav-number">1.2.</span> <span class="nav-text">code:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#深搜做法（更优）："><span class="nav-number">1.2.1.</span> <span class="nav-text">深搜做法（更优）：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#广搜做法："><span class="nav-number">1.2.2.</span> <span class="nav-text">广搜做法：</span></a></li></ol></li></div>
             
 
           </div>
@@ -874,9 +867,9 @@
   
     <script>
       var disqus_config = function () {
-        this.page.url = "MysterySky.github.io/2019/05/02/Hexo-My-new-blog/";
-        this.page.identifier = "2019/05/02/Hexo-My-new-blog/";
-        this.page.title = 'Hexo -- My new blog';
+        this.page.url = "MysterySky.github.io/2019/05/19/洛谷-P1902-刺杀大使-题解/";
+        this.page.identifier = "2019/05/19/洛谷-P1902-刺杀大使-题解/";
+        this.page.title = '洛谷 P1902 刺杀大使  题解';
         };
       function loadComments () {
         var d = document, s = d.createElement('script');
